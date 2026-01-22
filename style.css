@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.navbar {
+    background-color: #003366;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+table {
+    width: 60%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ===== Common Page Layout for Inner Pages ===== */
+
+.page-container {
+    max-width: 900px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.page-title {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
